@@ -6,11 +6,11 @@ function Footer() {
         Designed and Coded by{" "}
         <a
           className="font-medium"
-          href="https://pavanmg.in"
+          href="https://munashechibaya.me"
           target="_blank"
           rel="noreferrer noopener"
         >
-          Pavan MG
+          Munashe Chibaya
         </a>{" "}
         with
         <span className="text-gradient font-medium"> Love</span> &

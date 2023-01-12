@@ -16,7 +16,7 @@
   @apply pt-28 xl:pt-28 2xl:pt-44;
 }
 .text-content {
-  @apply dark:text-light-content text-dark-content;
+  @apply  text-light-content dark:text-dark-content;
 }
 body {
   overflow-x: hidden;
