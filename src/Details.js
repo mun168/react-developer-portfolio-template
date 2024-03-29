@@ -2,8 +2,7 @@
 // Logo images
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo.svg";
-// Profile Image
-import profile from "./assets/profile2.png";
+
 // Tech stack images
 import spring from "./assets/techstack/spring.png";
 import java from "./assets/techstack/java.webp";
@@ -35,7 +34,6 @@ export const logos = {
 export const personalDetails = {
   name: "Munashe Chibaya",
   tagline: "Software Developer",
-  img: profile,
   about: `I am a software developer .`,
 };
 
