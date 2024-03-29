@@ -5,14 +5,13 @@ import logo from "./assets/logo.svg";
 // Profile Image
 import profile from "./assets/profile2.png";
 // Tech stack images
-import html from "./assets/techstack/html.png";
-import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
-import js from "./assets/techstack/js.png";
+import spring from "./assets/techstack/spring.png";
+import java from "./assets/techstack/java.webp";
+import xcode from "./assets/techstack/xcode.png";
+import jetbrains from "./assets/techstack/jetbrains.png";
 import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
-import tailwind from "./assets/techstack/tailwind.png";
-import bootstrap from "./assets/techstack/bootstrap.png";
+import angular from "./assets/techstack/angular.png";
+import swift from "./assets/techstack/swift.jpeg";
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
@@ -60,6 +59,14 @@ export const workDetails = [
     Duration: "Dec 2021 - Aug 2021",
   },
 
+  {
+    Position: "Software Developer",
+    Company: `Veliqo`,
+    Location: "Harare",
+    Type: "Internship",
+    Duration: "November 2023 - Current",
+  }
+
 ];
 
 // Enter your Education Details here
@@ -75,14 +82,13 @@ export const eduDetails = [
 
 // Tech Stack and Tools
 export const techStackDetails = {
-  html: html,
-  css: css,
-  js: js,
+  spring: spring,
+  java: java,
+  angular: angular,
   react: react,
-  redux: redux,
-  sass: sass,
-  tailwind: tailwind,
-  bootstrap: bootstrap,
+  swift: swift,
+  xcode: xcode,
+  jetbrains : jetbrains,
   vscode: vscode,
   postman: postman,
   npm: npm,
@@ -96,56 +102,36 @@ export const projectDetails = [
   {
     title: "Tenant Management Admin",
     image: projectImage1,
-    description: `A tenant Management Admin System for Joina City`,
+    description: `A tenant Management Admin System `,
     techstack: "Java Spring-boot ,HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com/",
   },
   {
-    title: "Project title 2",
+    title: "E-Commerce System",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `An online markrting application`,
+    techstack: "HTML/CSS, angular , Spring boot",
     previewLink: "/",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 3",
+    title: "Core Banking System",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `An E-wallet and remittence system `,
+    techstack: "HTML/CSS, angular, Spring boot",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 4",
+    title: "Core Banking System App",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `An E-wallet and remittence app`,
+    techstack: "Swift",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
+
 ];
 
 // Enter your Contact Details here

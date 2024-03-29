@@ -3,14 +3,13 @@ import { techStackDetails } from "../Details";
 
 function Technologies() {
   const {
-    html,
-    css,
-    js,
+    spring,
+    java,
+    swift,
+    angular,
+    xcode,
+    jetbrains,
     react,
-    redux,
-    tailwind,
-    bootstrap,
-    sass,
     vscode,
     git,
     github,
@@ -29,14 +28,12 @@ function Technologies() {
         </p>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={html} title="html" alt="" />
-        <img src={css} title="CSS" alt="" />
-        <img src={js} title="JavaScript" alt="" />
+        <img src={spring} title="Spring" alt="" />
+        <img src={java} title="Java" alt="" />
+        <img src={swift} title="Swift" alt="" />
+        <img src={angular} title="Angular" alt="" />
         <img src={react} title="React" alt="" />
-        <img src={redux} title="Redux" alt="" />
-        <img src={tailwind} title="Tailwind CSS" alt="" />
-        <img src={bootstrap} title="Bootstrap" alt="" />
-        <img src={sass} title="SASS" alt="" />
+
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
@@ -50,6 +47,8 @@ function Technologies() {
         <img src={figma} title="Figma" alt="Figma" />
         <img src={npm} title="NPM" alt="NPM" />
         <img src={postman} title="Postman" alt="Postman" />
+        <img src={xcode} title="Xcode" alt="" />
+        <img src={jetbrains} title="Jetbrains Ide" alt="Git" />
       </section>
     </main>
   );
