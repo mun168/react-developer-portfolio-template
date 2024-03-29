@@ -54,18 +54,12 @@ export const workDetails = [
   
   {
     Position: "Internship",
-    Company: `Software Hub`,
+    Company: `CICOSY`,
     Location: "Harare",
     Type: "Internship",
     Duration: "Dec 2021 - Aug 2021",
   },
-  {
-    Position: "Internship",
-    Company: `Tech Soft`,
-    Location: "Harare",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
+
 ];
 
 // Enter your Education Details here
@@ -75,7 +69,7 @@ export const eduDetails = [
     Company: `Universirty Of Zimbabwe`,
     Location: "Harare Zimbabwe",
     Type: "Full Time",
-    Duration: "Aug 2019 - Present",
+    Duration: "Aug 2019 - June 2023",
   },
 ];
 
